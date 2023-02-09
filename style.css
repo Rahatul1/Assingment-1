@@ -238,3 +238,20 @@ main {
     background-color: #dbdbdb;
     border-radius: 30px;
 }
+
+/* keep part */
+.keep {
+    padding: 0 300px;
+    text-align: left;
+}
+
+.keep-part {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.keep-main {
+    padding: 0 80px;
+    position: relative;
+    top: -230px;
+}
