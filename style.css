@@ -74,7 +74,7 @@ main {
 
 .failures-title {
     color: #151414;
-    margin-bottom: 18px;
+    margin-bottom: 30px;
     font-size: 40px;
     font-weight: 700;
 }
@@ -86,8 +86,16 @@ main {
 
 .failures-ul {
     list-style: none;
+    padding: 0;
 }
 
+.failures-ul li {
+    padding: 5px 0;
+}
+
+.fa-solid {
+    color: #16D887;
+}
 
 /*  my plan part */
 .plan-title {
@@ -189,4 +197,44 @@ main {
     border-radius: 10px;
     background-color: #005FAC;
     color: #FFFFFF;
+}
+
+
+/* My-clients part */
+.cl-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.cl-dis {
+    padding: 0 50px;
+}
+
+.my-client {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 250px;
+    margin-bottom: 100px;
+    gap: 20px;
+}
+
+.cl-img {
+    display: grid;
+    justify-content: center;
+    padding: 60px;
+}
+
+.cl-img img {
+    margin-bottom: 20px;
+}
+
+.cl-part {
+    padding: 30px;
+}
+
+.cl-bg {
+    background-color: #dbdbdb;
+    border-radius: 30px;
 }
