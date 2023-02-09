@@ -121,3 +121,72 @@ main {
     font-weight: 500;
     margin-top: 15px;
 }
+
+/* footer part  */
+
+.footer-part {
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    /* height: 577px; */
+    left: 0px;
+    top: 2651.96px;
+    background-color: #151414;
+}
+
+/* future-part */
+.future-part {
+    padding: 200px;
+}
+
+.future-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.future-dis {
+    padding: 15px 0;
+}
+
+.fu-icon {
+    margin-top: 30px;
+}
+
+.fu-icon img {
+    padding: 0 20px;
+}
+
+/* Subscribe part */
+.Subscribe-part {
+    padding: 200px;
+}
+
+.Subscribe-title {
+    font-weight: 600px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.Subscribe-input {
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.su-email {
+    padding: 10px 0;
+}
+
+.Subscribe-btn {
+    font-size: 20px;
+    font-weight: 600;
+    width: 170px;
+    height: 64px;
+    border: none;
+    border-radius: 10px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+}
